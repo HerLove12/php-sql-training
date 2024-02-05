@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operazioni sul Database</title>
+</head>
+
+<body>
+
+    <h1>Scegli cosa fare con la recensione</h1>
+    <form action="aggiorna.php" method="post">
+        <h2>Aggiorna Voto Recensione</h2>
+        ID Recensione:
+        <input type="text" name="id_recensione" required><br><br>
+
+        <input type="radio" name="gender" value="aggiorna" checked="true">Aggiorna
+        <input type="radio" name="gender" value="cancella">Cancella
+        <br><br>
+
+        Nuovo Voto:
+        <input type="text" name="nuovo_voto"><br><br>
+        <input type="submit" value="esegui">
+    </form>
+
+    <p><a href="index.html">Torna alla Home Page</a></p>
+
+</body>
+
+</html>
